@@ -11,6 +11,7 @@
     "elasticsearch": "^15.4.1",
     "http-aws-es": "^6.0.0",
     "jimp": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
     "source-map-support": "^0.5.10",
     "uuid": "^3.3.2"
   },

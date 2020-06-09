@@ -45,6 +45,7 @@ provider:
     IMAGES_S3_BUCKET: raj-serverless-udagram-images-${self:provider.stage}
     SIGNED_URL_EXPIRATION: 300
     THUMBNAILS_S3_BUCKET: raj-serverless-udagram-thumbnail-${self:provider.stage}
+    AUTH_0_SECRET_ID: Put_The_Secret_Test_Here
 
   iamRoleStatements:
     - Effect: Allow
