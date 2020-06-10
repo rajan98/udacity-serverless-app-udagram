@@ -34,6 +34,11 @@ provider:
   runtime: nodejs12.x
   region: ${opt:region, 'ap-south-1'}
   stage: ${opt:stage, 'dev'}
+
+  tracing:
+    lambda: true
+    apiGateway: true
+    
   apiGateway:
     minimumCompressionSize: 1024 # Enable gzip compression for responses > 1 KB
   environment:
